@@ -1,17 +1,18 @@
 {
-  "name": "login",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2",
-    "md5": "^2.3.0",
-    "nodemon": "^2.0.20"
-  }
+    "name": "login",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon md5.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "md5": "^2.3.0",
+        "nodemon": "^2.0.20"
+    }
 }
