@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon md5.js"
+        "start": "node md5.js"
     },
     "keywords": [],
     "author": "",
