@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/:word', (req, res) => {
-    res.send(md5(req.params.word))
+    res.send(`{"md5":${md5(req.params.word)}}`)
 })
 
 
